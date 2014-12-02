@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+}
+
+.label-star {
+	cursor: pointer;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+.radio-star {
+	display: none;
+}
+
+.star-active, .star-inactive {
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.star-active {
+	background-image: url('star-active.png');
+
+}
+
+.star-inactive {
+	background-image: url('star-inactive.png');
+
+	
+}
